@@ -1,0 +1,62 @@
+body {
+    background-image: url("bus.webp");
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+.max-width{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #160A33;
+    transition: 0.3s;
+}
+h1:hover{
+    text-shadow: 0px 0px 5px black;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #160A33;
+}
+h2:hover{
+    text-shadow: 0px 0px 5px black;
+}
+p{
+    color: #2525BB;
+}
+
+button {
+    border: 2px solid #2C5A77;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: 2525BB;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover{
+    box-shadow: 0px 0px 5px #2525BB;
+}
+
+#increment-btn {
+    background: transparent;
+}
+
+#save-btn {
+    background: transparent;
+}
+
